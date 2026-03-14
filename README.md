@@ -18,7 +18,7 @@
 
 ## 📖 Introduction
 
-This project utilizes **Microsoft Excel** and **Power BI** to analyze and visualize road accident data from **Kaggle**. By identifying patterns in timing, location, and contributing factors, it provides an interactive dashboard designed to help stakeholders make data-driven decisions to improve road safety and infrastructure.
+This project utilizes **Microsoft Excel** to analyze and visualize road accident data from **Kaggle**. By identifying patterns in timing, location, and contributing factors, it provides a live, interactive Excel dashboard designed to help stakeholders make data-driven decisions to improve road safety and infrastructure.
 
 ---
 
@@ -56,7 +56,7 @@ The project leverages a modern web stack to ensure speed and reliability:
 
 - 🧱 **HTML5**: Semantic structure for better SEO and accessibility.
 - 🎨 **CSS3**: Custom glassmorphism-inspired UI and responsive grids.
-- 📉 **Excel & Power BI**: Robust data processing and interactive visualization.
+- 📉 **Microsoft Excel**: Robust data processing and live interactive visualization via OneDrive embedding.
 - ⚡ **OneDrive Cloud**: Hosting for real-time data persistence.
 
 ---
@@ -144,7 +144,7 @@ To run this project locally, follow these simple steps:
 
 ## 🚀 Live Dashboard
 
-View the interactive Excel and Power BI analysis dashboard.
+View the live interactive Excel analysis dashboard.
 
 [![View Dashboard](https://img.shields.io/badge/Excel-View_Dashboard-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://road-accident-dashboard.vercel.app/)
 
