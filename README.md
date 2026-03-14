@@ -1,19 +1,42 @@
+<img src="banner.png" width="100%" height="200" style="object-fit: cover" align="center">
+
 <div align="center">
 
-![Road Accident Dashboard Banner](banner.png)
-
-# 🚦 Road Accident Live Dashboard
+<h1> 🚦 Road Accident Dashboard</h1>
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/en-us/microsoft-365/excel)
-[![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)](https://1drv.ms/x/c/844acd8e58422598/IQTDVUVa8Z0qSKuJXKUlqdaVAdUIL6xsUQ7dz3I84Xc0NKE)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://road-accident-dashboard.vercel.app/)
+[![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)](https://road-accident-dashboard.vercel.app/)
 
 **A high-performance, real-time dashboard for analyzing road accident trends and hotspots.**
 
-[Explore Dashboard](index.html) • [Report Bug](https://github.com/ajaygangwar945/Road-Accident-Dashboard/issues) • [Request Feature](https://github.com/ajaygangwar945/Road-Accident-Dashboard/issues)
-
 </div>
+
+---
+
+## 📖 Introduction
+
+This project utilizes **Microsoft Excel** and **Power BI** to analyze and visualize road accident data from **Kaggle**. By identifying patterns in timing, location, and contributing factors, it provides an interactive dashboard designed to help stakeholders make data-driven decisions to improve road safety and infrastructure.
+
+---
+
+## 📂 Source of Dataset
+
+The dataset used in this analysis was sourced from **Kaggle**, a platform for data science and machine learning.
+
+**Data Source Link**: [Road Accident United Kingdom (UK) Dataset](https://www.kaggle.com/datasets/devansodariya/road-accident-united-kingdom-uk)
+
+The dataset contains detailed information about road accidents, including:
+
+- 📅 **Date and time** of the accident
+- 📍 **Location** (latitude, longitude, or area)
+- ☁️ **Road conditions** (e.g., weather, lighting)
+- 🚗 **Vehicle type** and number of vehicles involved
+- 🚑 **Number of casualties** (fatalities and injuries)
+- 👥 **Driver demographics** (e.g., age, gender)
+- ⚠️ **Contributing factors** (e.g., speeding, alcohol)
 
 ---
 
@@ -33,8 +56,60 @@ The project leverages a modern web stack to ensure speed and reliability:
 
 - 🧱 **HTML5**: Semantic structure for better SEO and accessibility.
 - 🎨 **CSS3**: Custom glassmorphism-inspired UI and responsive grids.
-- 📉 **Excel Online**: Robust data processing and live-embedded visualization.
+- 📉 **Excel & Power BI**: Robust data processing and interactive visualization.
 - ⚡ **OneDrive Cloud**: Hosting for real-time data persistence.
+
+---
+
+## ⚙️ Dataset Preprocessing
+
+Effective preprocessing is essential for extracting accurate and meaningful insights. The following steps were carried out using **Microsoft Excel**:
+
+- **🧹 Removal of Blank and Irrelevant Data**: Blank rows and non-essential columns were removed using Excel’s *Filter* and *Go To Special → Blanks → Delete* functionalities.
+- **📏 Data Standardization**: Attributes such as road conditions, vehicle type, and accident severity were cleaned and standardized (e.g., ensuring consistency in text formatting).
+- **➕ Creation of Helper Columns**: New columns were created to support deeper analysis:
+  - **Time of Day**: Morning, Afternoon, Evening, Night (extracted from time).
+  - **Day of the Week**: Extracted from the accident date.
+  - **Accident Severity**: Categorized based on the number of casualties.
+- **🔣 Data Type Formatting**: Dates, times, and numerical values were correctly formatted. Duplicate entries were removed to avoid skewed results.
+- **📊 Pivot Tables & Aggregation**: Dynamic pivot tables and slicers were used to summarize patterns and prepare data for the dashboard.
+
+---
+
+## 🔍 Analysis & Insights
+
+This analysis aims to identify key factors contributing to road accidents and highlight high-risk areas to develop safety strategies.
+
+### 🎯 Specific Objectives
+
+- Identify common causes of road accidents.
+- Analyze trends by time, day, and month.
+- Determine high-risk locations.
+- Examine the impact of road conditions on severity.
+
+### 📈 Analysis Results
+
+- **Common Causes**: Speeding (30%), drunk driving (25%), and distracted driving (20%).
+- **Temporal Trends**:
+  - Accidents are most frequent during **evening (40%)** and **night (30%)** hours.
+  - **Friday and Saturday** exhibit the highest accident rates.
+  - Trends show an increase during **June and July**.
+- **Road Conditions**: Accidents are more severe in **rainy** (Severity Index: 2.5) and **foggy** (Severity Index: 3.0) conditions compared to clear skies.
+- **Vehicle Involvement**: Passenger cars (60%) and motorcycles (20%) are most frequently involved.
+
+---
+
+## 🖼️ Visualizations
+
+The following visualizations were implemented to present the analysis results:
+
+- **📊 Bar Charts**: Number of accidents by contributing cause.
+- **📈 Line Charts**: Monthly accident trends over the year.
+- **🗺️ Heat Maps**: Accident frequency by location (High-risk areas).
+- **📦 Box Plots**: Distribution of accident severity by road condition.
+- **🍕 Pie Charts**: Percentage of accidents by vehicle type.
+- **📍 Interactive Map**: Geographical distribution with filters for date and severity.
+- **🎴 KPI Cards**: Real-time display of accident and fatality rates.
 
 ---
 
@@ -43,11 +118,14 @@ The project leverages a modern web stack to ensure speed and reliability:
 To run this project locally, follow these simple steps:
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/ajaygangwar945/Road-Accident-Dashboard.git
    ```
+
 2. **Open the Dashboard**:
    Simply open the `index.html` file in any modern web browser.
+
    ```bash
    cd Road-Accident-Dashboard
    start index.html
@@ -58,9 +136,17 @@ To run this project locally, follow these simple steps:
 ## 📸 Dashboard Preview
 
 <div align="center">
-  <img src="car-crash.png" alt="Accident Analysis Icon" width="100">
-  <p><i>Live Interactive Visualization of Global Road Accident Data</i></p>
+  <img src="Screenshot 2026-03-14 195429.png" alt="Accident Analysis Live Dashboard" width="100%">
+  
 </div>
+
+---
+
+## 🚀 Live Dashboard
+
+View the interactive Excel and Power BI analysis dashboard.
+
+[![View Dashboard](https://img.shields.io/badge/Excel-View_Dashboard-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://road-accident-dashboard.vercel.app/)
 
 ---
 
@@ -73,12 +159,6 @@ Contributions are what make the open-source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
-
-## 📝 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
