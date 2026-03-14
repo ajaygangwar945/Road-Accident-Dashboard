@@ -175,17 +175,6 @@ Contributions are what make the open-source community such an amazing place to l
 
 ---
 
-## 📄 Supporting Documentation
-
-For a more in-depth look at how this project was conceived and built, please refer to the [Project_Details.txt](Project_Details.txt) file. It contains:
-- Detailed development workflow.
-- In-depth tool descriptions.
-- Conceptual "Why" behind the analysis.
-
----
-
----
-
 <div align="center">
   Developed with ❤️ by <a href="https://github.com/ajaygangwar945">Ajay Gangwar</a>
 </div>
