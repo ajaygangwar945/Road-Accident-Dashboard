@@ -1,0 +1,42 @@
+ROAD ACCIDENT DASHBOARD - PROJECT DOCUMENTATION
+================================================
+
+1. PROJECT OVERVIEW
+------------------
+The Road Accident Dashboard is a high-performance, real-time data visualization tool designed to analyze road accident trends and hotspots. The primary goal is to provide actionable insights into accident patterns—such as timing, location, and contributing factors—to support data-driven decisions for improving road safety.
+
+The project visualizes the "Road Accident United Kingdom (UK) Dataset" sourced from Kaggle.
+
+2. WHY THIS PROJECT WAS MADE
+--------------------------
+- To identify high-risk areas (hotspots) for targeted safety interventions.
+- To understand temporal trends (peak accident times, days, and months).
+- To analyze the correlation between road/weather conditions and accident severity.
+- To provide a professional, interactive interface for stakeholders to explore complex data easily.
+
+3. HOW IT WAS MADE (DEVELOPMENT WORKFLOW)
+---------------------------------------
+- DATA PREPROCESSING: Raw data from Kaggle was cleaned and standardized using Microsoft Excel. This involved removing blanks, formatting dates/times, and creating helper columns (e.g., "Time of Day").
+- DATA AGGREGATION: Pivot tables and Excel formulas were used to summarize the data into meaningful metrics (KPIs) and distributions.
+- DASHBOARD DESIGN: An interactive dashboard was constructed within Excel featuring Slicers, Timeline filters, and various charts (Bar, Line, Pie, Heat Maps).
+- WEB INTEGRATION: The Excel workbook was hosted on OneDrive to leverage its embedding capabilities.
+- FRONTEND DEVELOPMENT: A sleek, "glassmorphism" inspired web wrapper was built using HTML5 and CSS3 to host the live dashboard in a professional, full-screen environment.
+
+4. LANGUAGES & TOOLS USED
+------------------------
+- MICROSOFT EXCEL: Core tool for data cleaning, analysis, and visualization.
+- HTML5: Used for the semantic structure of the web portal.
+- CSS3: Custom styling for a modern, responsive, and premium UI (including animations and grid layouts).
+- ONEDRIVE/SHAREPOINT: For cloud hosting and live synchronization of the Excel data.
+- VERCEL: For deploying and hosting the web application.
+
+5. KEY FEATURES
+--------------
+- Real-time Analytics: Dynamic synchronization with the cloud-hosted Excel data.
+- Interactive Filters: Users can filter by severity, vehicle type, and date ranges.
+- Responsive Design: Optimized for both desktop and mobile viewing.
+- Immersive UI: Full-screen layout with a modern aesthetic to "wow" the user.
+
+------------------------------------------------
+Developed by Ajay Gangwar
+Last Updated: March 2026

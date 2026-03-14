@@ -58,6 +58,19 @@ The project leverages a modern web stack to ensure speed and reliability:
 - 🎨 **CSS3**: Custom glassmorphism-inspired UI and responsive grids.
 - 📉 **Microsoft Excel**: Robust data processing and live interactive visualization via OneDrive embedding.
 - ⚡ **OneDrive Cloud**: Hosting for real-time data persistence.
+- 🚀 **Vercel**: Deployment and cloud hosting for the web application.
+
+---
+
+## 📂 Folder Structure
+
+The repository is organized as follows:
+
+- `index.html`: Main entry point for the web dashboard.
+- `Project_Details.txt`: Comprehensive documentation on development work, tools, and methodology.
+- `Road-Accident-Dashboard.xlsx`: The core Excel workbook containing data and analysis.
+- `banner.png` & `favicon.png`: Graphic assets for the UI.
+- `Screenshot...`: Visual preview of the dashboard.
 
 ---
 
@@ -159,6 +172,17 @@ Contributions are what make the open-source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+---
+
+## 📄 Supporting Documentation
+
+For a more in-depth look at how this project was conceived and built, please refer to the [Project_Details.txt](Project_Details.txt) file. It contains:
+- Detailed development workflow.
+- In-depth tool descriptions.
+- Conceptual "Why" behind the analysis.
+
+---
 
 ---
 
