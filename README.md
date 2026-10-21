@@ -6,7 +6,7 @@
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/en-us/microsoft-365/excel)
+[![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://1drv.ms/x/c/844acd8e58422598/IQTg0fRewoTKT50ZSNIIMBNiAWQEVMWI2FCew5djeyXWUMo)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://road-accident-dashboard.vercel.app/)
 [![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)](https://road-accident-dashboard.vercel.app/)
 
@@ -68,7 +68,7 @@ The repository is organized as follows:
 
 - `index.html`: Main entry point for the web dashboard.
 - `Project_Details.txt`: Comprehensive documentation on development work, tools, and methodology.
-- `Road-Accident-Dashboard.xlsx`: The core Excel workbook containing data and analysis.
+- [Road-Accident-Dashboard.xlsx](https://1drv.ms/x/c/844acd8e58422598/IQTg0fRewoTKT50ZSNIIMBNiAWQEVMWI2FCew5djeyXWUMo): The core Excel workbook containing data and analysis.
 - `banner.png` & `favicon.png`: Graphic assets for the UI.
 - `Screenshot...`: Visual preview of the dashboard.
 
@@ -157,9 +157,12 @@ To run this project locally, follow these simple steps:
 
 ## 🚀 Live Dashboard
 
-View the live interactive Excel analysis dashboard.
+View the live interactive Excel analysis dashboard on Vercel or open the cloud workbook directly on OneDrive:
 
 [![View Dashboard](https://img.shields.io/badge/Excel-View_Dashboard-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://road-accident-dashboard.vercel.app/)
+[![OneDrive Workbook](https://img.shields.io/badge/OneDrive-Live_Workbook-0078D4?style=for-the-badge&logo=microsoftonedrive&logoColor=white)](https://1drv.ms/x/c/844acd8e58422598/IQTg0fRewoTKT50ZSNIIMBNiAWQEVMWI2FCew5djeyXWUMo)
+
+Direct Link: [Road-Accident-Dashboard.xlsx](https://1drv.ms/x/c/844acd8e58422598/IQTg0fRewoTKT50ZSNIIMBNiAWQEVMWI2FCew5djeyXWUMo)
 
 ---
 
